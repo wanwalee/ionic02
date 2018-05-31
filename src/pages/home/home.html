@@ -5,11 +5,11 @@
 </ion-header>
 
 <ion-content padding>
-  <h2>Welcome to Ionic 123</h2>
-  <p><b>
+  <h2>Welcome to Ionic 123 from window</h2>
+  <p><b><u>
     This starter project comes with simple tabs-based layout for apps
     that are going to primarily use a Tabbed UI.
-    </b></p>
+    </u></b></p>
   <p>
     Take a look at the <code>src/pages/</code> directory to add or change tabs,
     update any existing page or create new pages.
@@ -27,4 +27,15 @@
   </ion-item>
 
 </ion-list>
+<button ion-button color="light">Light</button>
+<button ion-button>Default</button>
+<button ion-button color="secondary">Secondary</button>
+<button ion-button color="danger" (click)="showAlert2()">Danger</button>
+<button ion-button color="dark">Dark</button>
+<button ion-button color="red">Red</button>
+<br>
+<ion-icon name="heart"></ion-icon>
+<ion-icon name="heart"></ion-icon>
+<br>
+<button ion-button block color="danger" (click)="showAlert()">alert button</button>
 </ion-content>
